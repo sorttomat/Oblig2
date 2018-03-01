@@ -1,4 +1,7 @@
 class ReseptHvit extends Resept {
+    /*
+    ReseptHvit er subklassen til Resept, og superklassen til PResept og MilitaerResept.
+    */
 
     public ReseptHvit(Legemiddel legem, Lege utskrLege, int pasId, int rt) {
         super(legem, utskrLege, pasId, rt);

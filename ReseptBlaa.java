@@ -1,4 +1,7 @@
 class ReseptBlaa extends Resept {
+    /*
+    RseptBlaa er subklassen til Resept.
+    */
     public ReseptBlaa(Legemiddel legem, Lege utskrLege, int pasId, int rt) {
         super(legem, utskrLege, pasId, rt);
     }

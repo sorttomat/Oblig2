@@ -1,4 +1,7 @@
 class Lege {
+    /*
+    Lege er superklassen til Fastlege.
+    */
     String navnLege;
 
     public Lege(String navn) {

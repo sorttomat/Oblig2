@@ -1,4 +1,7 @@
 abstract class Resept {
+    /*
+    Resept er superklassen til ReseptHvit og ReseptBlaa.
+    */
     protected Legemiddel legemiddel;
     protected Lege utskrivendeLege;
     protected int pasientId;

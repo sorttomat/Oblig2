@@ -1,4 +1,7 @@
 class LegemiddelB extends Legemiddel {
+    /*
+    LegemiddelB er subklassen til Legemiddel.
+    */
    protected int hvorVanedannende;
 
    public LegemiddelB(String navn, double pris, double virkestoff, int vanedannende) {

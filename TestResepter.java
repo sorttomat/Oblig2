@@ -1,5 +1,8 @@
-class TestResepter {
+class TestResepter extends Test {
     public static void main(String[] args) {
+        /*
+        Dette programmet tester alle resept-typene.
+        */
         LegemiddelA legemiddelA = new LegemiddelA("Ibux", 150.0, 200.0, 20);
         LegemiddelB legemiddelB = new LegemiddelB("pPiller", 250.0, 50.0, 31);
         LegemiddelC legemiddelC = new LegemiddelC("Nesespray", 15.50, 20.0);
@@ -34,17 +37,6 @@ class TestResepter {
         System.out.println(reseptBlaa);
         System.out.println(pResept);
         System.out.println(mResept);
-
-
-    }
-
-    public static void test(Object one, Object two) {
-        if (one.equals(two)) {
-            System.out.println("Riktig");
-        }
-        else {
-            System.out.println("Galt");
-        }
     }
 
     public static void p(String tekst) {

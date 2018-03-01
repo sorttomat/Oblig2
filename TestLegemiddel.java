@@ -1,5 +1,8 @@
-class TestLegemiddel {
+class TestLegemiddel extends Test {
     public static void main(String [] args) {
+        /*
+        Her blir alle legemidlene testet for alle parametrene, samt ID.
+        */
         LegemiddelA legemiddelA = new LegemiddelA("Ibux", 150.0, 200.0, 20);
         LegemiddelB legemiddelB = new LegemiddelB("Paracet", 250.0, 50.0, 31);
         LegemiddelC legemiddelC = new LegemiddelC("Nesespray", 15.50, 20.0);
@@ -7,7 +10,7 @@ class TestLegemiddel {
         test("Ibux", legemiddelA.hentNavn());
         test(150.0 , legemiddelA.hentPris());
         test(200.0, legemiddelA.hentVirkestoff());
-        test(20, legemiddelA.henNtarkotiskStyrke());
+        test(20, legemiddelA.hentNarkotiskStyrke());
         test(0, legemiddelA.hentId());
 
         test("Paracet", legemiddelB.hentNavn());
@@ -26,14 +29,5 @@ class TestLegemiddel {
         System.out.println(legemiddelB);
         System.out.println(legemiddelC);
 
-    }
-
-    public static void test(Object one, Object two) {
-        if (one.equals(two)) {
-            System.out.println("Riktig");
-        }
-        else {
-            System.out.println("Galt");
-        }
     }
 }

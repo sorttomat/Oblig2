@@ -1,4 +1,7 @@
 class LegemiddelA extends Legemiddel {
+    /*
+    LegemiddelA er subklassen til Legemiddel.
+    */
     protected int styrkeLegemiddel;
 
     public LegemiddelA(String navn, double pris, double virkestoff, int styrke) {
@@ -6,7 +9,7 @@ class LegemiddelA extends Legemiddel {
         styrkeLegemiddel = styrke;
     }
 
-    public int henNtarkotiskStyrke() {
+    public int hentNarkotiskStyrke() {
         return styrkeLegemiddel;
     }
 

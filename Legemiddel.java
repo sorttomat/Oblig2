@@ -1,4 +1,7 @@
 class Legemiddel {
+    /*
+    Legemiddel er superklassen til LegemiddalA, LegemiddelB og LegemiddelC.
+    */
     protected static int idTeller = 0;
     protected int id;
     protected String navnLegemiddel;
@@ -34,8 +37,8 @@ class Legemiddel {
     }
 
     public String toString() {
-        return "Navn paa legemiddel: " + navnLegemiddel + "\nPris: " + 
-        prisLegemiddel + "\nVirkestoff: " + virkestoffLegemiddel + "\nLegemiddel-ID: " + id + "\n";
+        return "Navn paa legemiddel: " + navnLegemiddel + "\nLegemiddel-ID: " + id + "\nPris: " + 
+        prisLegemiddel + "\nVirkestoff (mg): " + virkestoffLegemiddel + "\n";
     }
     
 }

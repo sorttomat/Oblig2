@@ -1,4 +1,7 @@
 class PResept extends ReseptHvit {
+    /*
+    PResept er subklassen til reseptHvit, som igjen er subklassen til Resept.
+    */
     protected static int avslag;
 
     public PResept(Legemiddel legem, Lege utskrLege, int pasId) {
