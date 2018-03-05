@@ -2,7 +2,7 @@ class Fastlege extends Lege implements Kommuneavtale {
     /*
     Fastlege er en subklasse av Lege, som også implementerer interfacet Kommuneavtale.
     */
-    int avtalenummer;
+    protected int avtalenummer;
 
     public Fastlege(String navn, int avtalenr) {
         super(navn);

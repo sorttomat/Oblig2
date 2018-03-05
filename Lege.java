@@ -2,7 +2,7 @@ class Lege {
     /*
     Lege er superklassen til Fastlege.
     */
-    String navnLege;
+    protected String navnLege;
 
     public Lege(String navn) {
         navnLege = navn;

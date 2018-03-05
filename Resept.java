@@ -6,7 +6,7 @@ abstract class Resept {
     protected Lege utskrivendeLege;
     protected int pasientId;
     protected int reit;
-    static int idTeller = 0;
+    protected static int idTeller = 0;
     protected int id;
 
     protected Resept(Legemiddel legem, Lege utskrLege, int pasId, int rt) {
