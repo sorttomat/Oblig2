@@ -2,7 +2,7 @@ class Lege {
     /*
     Lege er superklassen til Fastlege.
     */
-    protected String navnLege;
+    private String navnLege;
 
     public Lege(String navn) {
         navnLege = navn;
@@ -13,6 +13,6 @@ class Lege {
     }
 
     public String toString() {
-        return "Navn paa lege: " + navnLege + "\n";
+        return "Navn paa lege: " + hentNavn() + "\n";
     }
 }
