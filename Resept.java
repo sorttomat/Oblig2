@@ -2,12 +2,12 @@ abstract class Resept {
     /*
     Resept er superklassen til ReseptHvit og ReseptBlaa.
     */
-    protected Legemiddel legemiddel;
-    protected Lege utskrivendeLege;
-    protected int pasientId;
-    protected int reit;
-    protected static int idTeller = 0;
-    protected int id;
+    private Legemiddel legemiddel;
+    private Lege utskrivendeLege;
+    private int pasientId;
+    private int reit;
+    private static int idTeller = 0;
+    private int id;
 
     protected Resept(Legemiddel legem, Lege utskrLege, int pasId, int rt) {
         legemiddel = legem;
